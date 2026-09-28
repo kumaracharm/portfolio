@@ -1,0 +1,57 @@
+:root {
+  --bg: #dfe7e1;
+  --bg-strong: #d4dcd4;
+  --panel: #f0eeea;
+  --panel-soft: #f7f4f2;
+  --card: rgba(255, 255, 255, 0.08);
+  --text: #1f2125;
+  --muted: #5f605e;
+  --button-soft: #f1d9d4;
+  --border: rgba(31, 33, 37, 0.15);
+  --shadow: 0 18px 40px rgba(32, 31, 35, 0.08);
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: linear-gradient(90deg, #dee6e1 0%, #dfe3df 45%, #eeded8 100%);
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
